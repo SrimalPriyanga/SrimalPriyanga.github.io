@@ -1,6 +1,6 @@
 # Untracked files #
 assets/*.rb
-assets/sass/**
+#assets/sass/**
 assets/.sass-cache/**
 
 
