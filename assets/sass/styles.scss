@@ -1,14 +1,30 @@
-  @import "compass/reset";
-  @import 'compass';
-  @import "colors";
+@import "compass/reset";
+@import 'compass';
+@import "colors";
 
-  body{
-	  background-color: $cl-background;
-	  nav{
-		  background-color: $cl-white;
-		  position: absolute;
-		  top: 0px;
-		  right: 4px;
-		  color: #f7f7f8;
-	  }
+body {
+  background-color: $cl-background;
+  nav {
+    background-color: $cl-white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 100%;
+    color: #f7f7f8;
+    span{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 100%;
+      i{
+        position: relative;
+        margin: 0px auto;
+        color: $cl-light-blue;
+        &:hover{
+          color: $cl-light-blue;
+        }
+      }
+    }
   }
+}
