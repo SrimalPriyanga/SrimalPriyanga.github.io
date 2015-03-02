@@ -1,3 +1,14 @@
-@import "compass/reset";
-@import "colors";
+  @import "compass/reset";
+  @import 'compass';
+  @import "colors";
 
+  body{
+	  background-color: $cl-background;
+	  nav{
+		  background-color: $cl-white;
+		  position: absolute;
+		  top: 0px;
+		  right: 4px;
+		  color: #f7f7f8;
+	  }
+  }
