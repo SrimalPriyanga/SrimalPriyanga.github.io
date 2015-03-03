@@ -1,6 +1,8 @@
 @import "compass/reset";
+@import 'compass';
 @import "colors";
 
+<<<<<<< HEAD
 body{
 	background-color: $cl-background;
 	nav{
@@ -9,4 +11,31 @@ body{
 		top: 0;
 		right: 0;
 	}
+=======
+body {
+  background-color: $cl-background;
+  nav {
+    background-color: $cl-white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 100%;
+    color: #f7f7f8;
+    span{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 100%;
+      i{
+        position: relative;
+        margin: 0px auto;
+        color: $cl-light-blue;
+        &:hover{
+          color: $cl-light-blue;
+        }
+      }
+    }
+  }
+>>>>>>> 36bd43ed2815faa361dc8048c5980328ddbe8a0f
 }

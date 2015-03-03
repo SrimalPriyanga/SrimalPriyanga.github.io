@@ -1,7 +1,9 @@
 # Untracked files #
-assets/*.rb
 #assets/sass/**
+assets/*.rb
+assets/sass/.sass-cache/**
 assets/.sass-cache/**
+.idea/**
 
 
 # Compiled source #
